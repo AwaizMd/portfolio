@@ -1,0 +1,27 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  background-color: black;
+}
+
+
+/* Set the tail color to white */
+.ant-timeline-item-tail {
+  background-color: white; /* Set the tail color to white */
+  margin-left: 2px;
+
+}
+
+.ant-timeline-item .ant-timeline-item-head{
+  background-color: #3CCF91; /* Set background color */
+  width: 15px;
+  height: 15px;
+  color: white;
+  font-size: 16px;
+  line-height: 10px;
+  border: none;
+}
